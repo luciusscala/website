@@ -1,26 +1,23 @@
+
+/* Import the Gideon Roman font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
 @import "tailwindcss";
 
+/* Define global variables */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --primary-bg-color: #0E0E0E; /* Set primary background color */
+  --text-color: white;         /* Set text color to white */
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.gideon-roman-regular {
+  font-family: "Gideon Roman", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* Apply global styles */
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--primary-bg-color); /* Apply background color */
+  color: var(--text-color);                   /* Apply text color */
 }
+
