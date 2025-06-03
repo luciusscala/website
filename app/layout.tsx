@@ -27,7 +27,7 @@ import { SiGmail } from "react-icons/si";
                   <FaLinkedin className="w-6 h-6 text-gray-700 dark:text-gray-100 hover:text-blue-600 transition" title="LinkedIn" />
                 </a>
               </div>
-              <div className="mt-2 text-xs opacity-70">@ {new Date().getFullYear()}, Lucius Scala</div>
+              <div className="mt-2 text-xs opacity-70">@ {new Date().getFullYear()} Lucius Scala</div>
             </footer>
           </body>
         </html>
