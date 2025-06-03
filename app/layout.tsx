@@ -1,5 +1,5 @@
   import "./globals.css";
-import { FaInstagram, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 
 
