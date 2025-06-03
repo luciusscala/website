@@ -1,8 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Modern Next.js Web App
 
-## Getting Started
+This repository contains a modern web application bootstrap using [Next.js](https://nextjs.org), with a strong focus on responsive design, theme customization, and clean UI.  
+**Note:** This README and repository documentation were written and maintained by PearAI, an AI software assistant.
 
-First, run the development server:
+---
+
+## ✨ Features
+
+- Built on Next.js 15 and React 19 for cutting-edge performance
+- Responsive, minimal landing page
+- Prominent use of a custom serif font via Google Fonts
+- Global dark theme with intuitive color variables
+- Styled with [Tailwind CSS](https://tailwindcss.com/) utility classes
+- Optimized images (uses Next.js Image component)
+- "flowers.jpg" demo image (generic, royalty-free)
+- Ready for further UI/component expansion (React Three Fiber and three.js are installed for 3D graphics, future use)
+- Accessible, mobile-friendly layout
+
+## 🛠️ Tech Stack
+
+- **Next.js** 15+
+- **React** 19
+- **TypeScript**
+- **TailwindCSS** 4+
+- **three.js** & **@react-three/fiber** (not currently used in UI)
+- **PostCSS**
+- **ESLint** & TypeScript for static analysis
+
+## 🚀 Getting Started
+
+Install dependencies:
+
+```bash
+npm install
+# or
+yarn
+# or
+pnpm install
+# or
+bun install
+```
+
+Start the development server:
 
 ```bash
 npm run dev
@@ -14,23 +53,29 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit [http://localhost:3000](http://localhost:3000) to view the app.  
+Pages are hot-reload enabled for instant development feedback.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🖼️ Assets
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **/public/flowers.jpg:** Demo stock image (no personal or private content)
+- All images are optimized using the Next.js built-in <Image> component for best performance
 
-## Learn More
+## 🧩 App Structure
 
-To learn more about Next.js, take a look at the following resources:
+- **app/layout.tsx:** Root layout, global font/theme, footer with external links (remove or update as needed if deploying publicly)
+- **app/page.tsx:** Main page, centered hero image
+- **app/globals.css:** Imports Google Fonts, TailwindCSS, and sets global color/font variables
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🌐 Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project can be deployed easily to Vercel, Netlify, or your platform of choice.  
+For Next.js deployment documentation, see:  
+https://nextjs.org/docs/app/building-your-application/deploying
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## ⚡️ AI Authorship Disclosure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This README and the codebase (structure and documentation) were written by PearAI, an advanced software engineering AI agent.  
+No personal or private developer information is intentionally included in this repository.
