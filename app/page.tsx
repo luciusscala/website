@@ -1,19 +1,23 @@
 
+import Image from "next/image";
+
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen gideon-roman-regular">
-      <main className="flex-1 flex flex-col items-center justify-center ">
-        <h1 className="text-4xl leading-loose"> i'm lucius,<br></br>these are some things i like. </h1>
-        <br></br>
-        <h2 className="text-2xl"><a href="thisisalonglinkfornoreasonlolreaditandweepbitch"className="underline underline-offset-2"> projects</a></h2>
+      <main className="flex-1 flex flex-col items-center justify-center relative">
+        <div className="relative flex items-center justify-center w-full">
+          <figure className="w-full max-w-[400px] flex flex-col items-center">
+            <Image
+              src="/flowers.jpg"
+              alt="flowers"
+              width={400}
+              height={274}
+              className="object-contain rounded-xl ring-2 ring-white/60 dark:ring-[#2c2c25] shadow-2xl hover:scale-105 transition-transform duration-300 w-full h-auto bg-white/60 dark:bg-[#26231d]/80"
+              priority
+            />
+          </figure>
+        </div>
       </main>
-      
-      <footer className="py-4 text-center text-sm">
-        <h3>
-          <a href="contact" className="underline underline-offset-2">contact</a>
-          <br></br> ls @ 2025
-        </h3>
-      </footer>
     </div>
   );
 }
