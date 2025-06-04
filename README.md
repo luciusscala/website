@@ -1,7 +1,7 @@
-# Modern Next.js Web App
+# my website
 
 This repository contains a modern web application bootstrap using [Next.js](https://nextjs.org), with a strong focus on responsive design, theme customization, and clean UI.  
-**Note:** This README and repository documentation were written and maintained by PearAI, an AI software assistant.
+**Note:** This README was written by Chat 
 
 ---
 
@@ -74,8 +74,3 @@ For Next.js deployment documentation, see:
 https://nextjs.org/docs/app/building-your-application/deploying
 
 ---
-
-## ⚡️ AI Authorship Disclosure
-
-This README and the codebase (structure and documentation) were written by PearAI, an advanced software engineering AI agent.  
-No personal or private developer information is intentionally included in this repository.
